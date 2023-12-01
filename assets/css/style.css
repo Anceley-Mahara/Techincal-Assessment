@@ -109,6 +109,7 @@ a{
   color:var(--first-color-light);
   margin-bottom:1.5rem;
   transition:.3s;
+  
 }
 .nav__link:hover{
   color:var(--white-color);
@@ -143,6 +144,51 @@ p{
   line-height: 1.6;
 }
 
+.search-box {
+  width: 100%;
+  max-width: 525px;
+  min-height: 370px;
+  position: relative;
+  border: #297fb981 1px solid;
+  border-radius: 5px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center the form fields horizontally */
+}
+
+.search-box .search-field {
+  border: #ccc 1px solid;
+  border-bottom: #ccc 2px solid;
+  padding: 8px;
+  width: 100%; /* Make the search field take the full width */
+  display: block;
+  color: #AAAAAA;
+  margin-top: 7px;
+  font-size: 1em;
+  border-radius: 4px;
+}
+.search-box .button {
+  margin-top: 15px; /* Add margin to the button */
+  width:125px;
+  padding-top:5px;
+  padding-bottom:5px;
+  border-radius:4px;
+  margin-top:20px;
+  margin-bottom:20px;
+  margin-left:47px;
+  font-family: var(--body-font);
+  font-size: var(--normal-font-size);
+}
+.button:hover{
+  background:#c8c8c9; 
+}
+
+/* Optional: Add spacing between form fields */
+.search-box .group:not(:last-child) {
+  margin-bottom: 20px;
+}
+
 @media screen and (min-width:768px){
   body{
     margin:calc(var(--header-height) + 1rem) 0 0 0;
@@ -172,6 +218,8 @@ p{
     padding-left:calc(var(--nav-width) + 188px);
   }
 }
-
+select {
+  margin-bottom: 20px;
+}
 
   

@@ -1,0 +1,24 @@
+[
+    {
+        "name": "Mens",
+        "products": [
+            {
+                "name": "Blue Shirt"
+            },
+            {
+                "name": "Red T-Shirt"
+            }
+        ]
+    },
+    {
+        "name": "Kids",
+        "products": [
+            {
+                "name": "Sneakers"
+            },
+            {
+                "name": "Toy car"
+            }
+        ]
+    }
+]
